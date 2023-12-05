@@ -39,7 +39,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 800px; 
+    width: 700px; 
     height: 100vh;
 }
 
@@ -50,16 +50,33 @@ body {
 }
 
 .form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     padding-left: 50px;
     background-color: white;
     height: 40vh;
 }
+
+.form-fields-r1, .form-fields-r2, .form-fields-r3 {
+    display: flex;
+    gap: 40px;
+}
+
+.first-name, .last-name, .email, .phone-number, .password, .confirm-password {
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 .form-end {
     padding-left: 50px;
     background-color: #f1f7f8;
     height: 30vh;
 }
+
+
 
 
 
