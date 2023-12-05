@@ -1,0 +1,70 @@
+/* COMMIT!! */
+
+@font-face {
+    font-family: norse-bold;
+    src: url(fonts/Norse-Bold.otf)
+}
+
+.banner-text {
+    font-family: norse-bold;
+    font-size: 64px;
+    color: white;
+}
+
+body {
+    display:flex;
+    flex-direction: row;
+    margin: 0px 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+} 
+
+.banner {
+    position: relative;
+    display:flex;
+    height: 100vh;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+}
+
+.banner-black-background {
+    display: flex;
+    height: 100px;
+    width: 400px;
+    background-color: #000000;
+    opacity: 40%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 150px;
+}
+
+.form-intro{
+    padding-left: 50px;
+    background-color: #f1f7f8;
+    height: 30vh;
+}
+
+.form-fields-intro {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-fields{
+    padding-left: 50px;
+    height: 40vh;
+}
+
+.form-end{
+    padding-left: 50px;
+    background-color: #f1f7f8;
+    height: 30vh;
+}
+
+
+
