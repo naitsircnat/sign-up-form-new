@@ -44,7 +44,9 @@ body {
 }
 
 .form-intro {
-    padding-left: 50px;
+    padding-top: 120px;
+    padding-left: 30px;
+    padding-right: 100px;
     background-color: #f1f7f8;
     height: 30vh;
 }
@@ -53,14 +55,16 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding-left: 50px;
+    padding-left: 30px;
+    padding-right: 100px;
+    padding-bottom: 0px;
     background-color: white;
     height: 40vh;
 }
 
 .form-fields-r1, .form-fields-r2, .form-fields-r3 {
     display: flex;
-    gap: 40px;
+    gap: 45px;
 }
 
 .first-name, .last-name, .email, .phone-number, .password, .confirm-password {
@@ -69,12 +73,33 @@ body {
 }
 
 
-
 .form-end {
-    padding-left: 50px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 100px;
     background-color: #f1f7f8;
     height: 30vh;
 }
+
+label {
+    font-family: helvetica;
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.ending-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}
+
+input {
+    border-color: blue;
+    border-radius: 3px;
+    border-width: 1px;
+    width: 170px;
+}
+
+/* use calc for the form section heights? */
 
 
 
