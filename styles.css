@@ -89,15 +89,37 @@ label {
 
 .ending-text {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    margin-top: 20px;
+}
+
+.ending-text-link {
+    color: #596D48;
+    font-weight: 600;
 }
 
 input {
-    border-color: blue;
+    border-color: #E5E7EB;
     border-radius: 3px;
     border-width: 1px;
-    width: 170px;
+    width: 170px; 
 }
+
+button {
+    color: white;
+    font-size: 0.7rem;
+    background-color: #596D48;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+input:focus {
+    outline: none;
+    border: 0.25px solid blue;
+    box-shadow: 1px 1px 3px #ccc;
+    
+}
+
 
 /* use calc for the form section heights? */
 
