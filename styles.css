@@ -15,12 +15,13 @@ body {
     margin: 0px 200px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
+    background-color: black;
+    height: 100vh;
 } 
 
 .banner {
     position: relative;
     display:flex;
-    height: 100vh;
 }
 
 .banner-black-background {
@@ -40,26 +41,22 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 700px; 
-    height: 100vh;
+    height: 100%;
 }
 
 .form-intro {
-    padding-top: 120px;
     padding-left: 30px;
     padding-right: 100px;
     background-color: #f1f7f8;
-    height: 30vh;
 }
 
+
 .form-fields {
-    display: flex;
     flex-direction: column;
     gap: 15px;
     padding-left: 30px;
     padding-right: 100px;
-    padding-bottom: 0px;
     background-color: white;
-    height: 40vh;
 }
 
 .form-fields-r1, .form-fields-r2, .form-fields-r3 {
@@ -74,11 +71,9 @@ body {
 
 
 .form-end {
-    padding-top: 20px;
     padding-left: 30px;
     padding-right: 100px;
     background-color: #f1f7f8;
-    height: 30vh;
 }
 
 label {
@@ -110,18 +105,17 @@ button {
     font-size: 0.7rem;
     background-color: #596D48;
     border-radius: 5px;
-    padding: 5px 30px;
+    padding: 7px 30px;
 }
 
 input:focus {
     outline: none;
     border: 0.25px solid blue;
     box-shadow: 1px 1px 3px #ccc;
-    
 }
 
 
-/* use calc for the form section heights? */
+/* https://stackoverflow.com/questions/23090136/how-can-i-make-my-flexbox-layout-take-100-vertical-space */
 
 
 
