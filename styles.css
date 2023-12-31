@@ -16,6 +16,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     background-color: black;
+    align-items: center;
+    justify-content: center;
 } 
 
 .banner {
@@ -34,6 +36,14 @@ body {
     align-items: center;
     position: absolute;
     top: 150px;
+}
+
+.image-credit {
+    color: white;
+    position: absolute;
+    font-size: 0.6em;
+    bottom: 10px;
+    left: 125px;
 }
 
 form {
@@ -120,7 +130,9 @@ input:focus {
 }
 
 
-/* https://stackoverflow.com/questions/23090136/how-can-i-make-my-flexbox-layout-take-100-vertical-space */
+
+
+
 
 
 
