@@ -55,10 +55,16 @@ form {
 }
 
 .form-intro {
+    position: relative;
     padding-left: 30px;
     padding-right: 100px;
     background-color: #f1f7f8;
     flex: 1;
+}
+
+.form-intro-text {
+    position: absolute;
+    bottom: 25px; 
 }
 
 
@@ -70,6 +76,7 @@ form {
     padding-right: 100px;
     background-color: white;
     flex: 1;
+    justify-content: center;
 }
 
 .form-fields-r1, .form-fields-r2, .form-fields-r3 {
@@ -128,6 +135,8 @@ input:focus {
     border: 0.25px solid blue;
     box-shadow: 1px 1px 3px #ccc;
 }
+
+
 
 
 
