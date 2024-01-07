@@ -16,29 +16,28 @@ body {
 
 .banner {
     position: relative;
-    display:flex;
-    height: 100vh;
+}
+
+.banner-image {
+    height: 100vh
 }
 
 .banner-black-background {
-    display: flex;
     height: 100px;
     width: 400px;
     background-color: #000000;
     opacity: 40%;
-    justify-content: center;
-    align-items: center;
     position: absolute;
     top: 150px;
-    z-index: auto;
 }
 
 .banner-black-background-content {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     position: absolute;
-    z-index: 1;
+    top: 155px;
+    left: 120px;
 }
 
 .banner-text {
