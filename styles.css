@@ -28,7 +28,7 @@ body {
     background-color: #000000;
     opacity: 40%;
     position: absolute;
-    top: 150px;
+    top: 173px;
 }
 
 .banner-black-background-content {
@@ -36,7 +36,7 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 155px;
+    top: 178px;
     left: 120px;
 }
 
@@ -52,6 +52,10 @@ body {
     font-size: 0.6em;
     bottom: 10px;
     left: 125px;
+}
+
+a { 
+    color: white;
 }
 
 form {
@@ -146,8 +150,21 @@ input:focus {
     box-shadow: 2px 2px 3px #ccc;
 }
 
+.help{
+    display: none;
+}
 
-/*fix phone number field issue*/
+input:invalid {
+    border-color: lightcoral;
+    content: "Invalid password";
+}
+
+
+
+
+
+
+
 
 
 
