@@ -69,7 +69,6 @@ form {
 .form-intro {
     position: relative;
     padding-left: 30px;
-    padding-right: 100px;
     background-color: #f1f7f8;
     flex: 1;
 }
@@ -77,8 +76,8 @@ form {
 .form-intro-text {
     position: absolute;
     bottom: 25px; 
+    padding-right: 170px;
 }
-
 
 .form-fields {
     display: flex;
