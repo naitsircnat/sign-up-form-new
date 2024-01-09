@@ -150,13 +150,14 @@ input:focus {
     box-shadow: 2px 2px 3px #ccc;
 }
 
-.help{
-    display: none;
+input[type="password"]:invalid {
+    border-color: lightcoral;
 }
 
-input:invalid {
-    border-color: lightcoral;
-    content: "Invalid password";
+input:invalid + .help::after {
+    content: "*Invalid password";
+    color: lightcoral;
+    font-size: 0.7rem;
 }
 
 
